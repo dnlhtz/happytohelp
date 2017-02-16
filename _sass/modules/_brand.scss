@@ -1,5 +1,10 @@
 .brand {
-	@include svg (350px, 114.3px, logo);
+	@include svg (250px, 81.4px, logo);
+
+	@include mq(md) {
+		@include svg (350px, 114.3px, logo);
+	}
+	
 	margin-bottom: 1rem;
 	
 	&--header {

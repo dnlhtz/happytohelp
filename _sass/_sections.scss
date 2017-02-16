@@ -1,6 +1,7 @@
 .section {
 
 	padding: 2rem 0;
+	text-align: center;
 
 	&--footer {
 		background-color: #fcfcfc;
@@ -23,11 +24,39 @@
 	}
 
 	&--how {
-		text-align: center;
 
 		h2 {
 			margin-left: auto;
 			margin-right: auto;
+		}
+	}
+
+	&--why {
+
+		li {
+			color: $brand-primary;
+			position: relative;
+			font-weight: $font-weight--bold;
+			padding: .5rem 0 1rem;
+			margin: .5rem 0;
+
+			span {
+				display: block;
+				font-size: $font-size--xlarge;
+			}
+			
+		}
+
+		li::after {
+			content: " ";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			display: block;
+			width: 100px;
+			border-bottom: 3px solid $gray-lightest;
 		}
 	}
 }

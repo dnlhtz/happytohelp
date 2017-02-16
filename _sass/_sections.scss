@@ -10,4 +10,15 @@
 	&--footer {
 		padding-top: 4rem;
 	}
+
+	&--header {
+		background: url(/assets/images/header.png) no-repeat center bottom; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+		padding-top: 4rem;
+		padding-bottom: 8rem;
+	}
 }

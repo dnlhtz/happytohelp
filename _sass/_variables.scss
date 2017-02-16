@@ -1,11 +1,16 @@
 $body-bg: #fff;
-$body-color: #333;
+$body-color: #59504C;
 
 @import "bootstrap/variables";
 
-$path-images: "/assets/images/ui/";
+$path-images: "/assets/images/";
 
 // ======== COLORS ==========
+
+
+// ======== TYPOGRAPHY ==========
+
+// Fonts
 
 $font-family--proxima: 			"proxima-nova";
 $font-family--proxima-soft:	 	"proxima-nova-soft";
@@ -14,7 +19,6 @@ $font-family--script: 			"verveine";
 $font-family-sans-serif: $font-family--proxima;
 $font-family-base:       $font-family--proxima;
 
-// ======== TYPOGRAPHY ==========
 
 // Font Weight
 
@@ -56,13 +60,22 @@ $brand-primary:         #FF5200;
 // Jumbotron
 
 $jumbotron-padding:     0;
-$jumbotron-bg:          #fff;
+$jumbotron-bg:          transparent;
+
+// Radius
+
+$border-radius:          2rem;
+$border-radius-lg:       3rem;
+$border-radius-sm:       1rem;
+
 
 // Buttons
 
 $btn-primary-color:		#fff;
 $btn-primary-bg:        $brand-primary;
 $btn-primary-border:    $brand-primary;
+
+$btn-border-radius:     $border-radius;
 
 // Links
 

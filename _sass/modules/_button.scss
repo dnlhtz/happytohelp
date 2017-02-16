@@ -1,4 +1,33 @@
 .btn {
 	font-family: $font-family--proxima-soft;
 	border-radius: $border-radius;
+	transition: all .3s;
+
+	&:hover {
+
+	}
+
+	.fa {
+		font-size: 0.8rem;
+		margin-left: .3rem;
+	}
+}
+
+.btn-default {
+	border: 3px solid $brand-primary;
+	transition: all .3s;
+
+	.fa {
+		color: $gray-lighter;
+	}
+	
+	&:hover {
+		color: #fff;
+		background-color: $brand-primary;
+
+		.fa {
+			color: #fff;
+		}
+	}
+
 }

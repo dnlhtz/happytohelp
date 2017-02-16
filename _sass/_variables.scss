@@ -7,23 +7,28 @@ $path-images: "/assets/images/ui/";
 
 // ======== COLORS ==========
 
+$font-family--proxima: 			"proxima-nova";
+$font-family--proxima-soft:	 	"proxima-nova-soft";
+$font-family--script: 			"verveine";
 
+$font-family-sans-serif: $font-family--proxima;
+$font-family-base:       $font-family--proxima;
 
 // ======== TYPOGRAPHY ==========
 
 // Font Weight
 
-$font-weight--bold: 600;
-$font-weight--regular: 300;
+$font-weight--bold: 	600;
+$font-weight--regular: 	300;
 
 // Font Sizes
 
-$font-size--small: 1rem;
-$font-size--regular: 1.2rem;
-$font-size--large: 1.4rem;
-$font-size--large--md: 1.6rem;
-$font-size--xlarge: 2.2rem;
-$font-size--xxlarge: 2.8rem;
+$font-size--small: 		1rem;
+$font-size--regular: 	1.2rem;
+$font-size--large: 		1.4rem;
+$font-size--large--md: 	1.6rem;
+$font-size--xlarge: 	2.2rem;
+$font-size--xxlarge: 	2.8rem;
 
 
 // ========= Media Queries =========
@@ -41,23 +46,23 @@ $screen-xl:   75em;
 
 // Basic Settings 
 
-$enable-flex:               true;
-$enable-rounded:            false;
+$enable-flex:           true;
+$enable-rounded:        false;
 
 // Bootstrap color overwrites
 
-$brand-primary:             #FF5200;
+$brand-primary:         #FF5200;
 
 // Jumbotron
 
-$jumbotron-padding:         0;
-$jumbotron-bg:              #fff;
+$jumbotron-padding:     0;
+$jumbotron-bg:          #fff;
 
 // Buttons
 
-$btn-primary-color:              #fff;
-$btn-primary-bg:                 $brand-primary;
-$btn-primary-border:             $brand-primary;
+$btn-primary-color:		#fff;
+$btn-primary-bg:        $brand-primary;
+$btn-primary-border:    $brand-primary;
 
 // Links
 

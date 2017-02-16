@@ -1,0 +1,12 @@
+.brand {
+	@include svg (300px, 98px, logo);
+	margin-bottom: 1rem;
+	
+	&--header {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	&--footer {
+		margin-top: 4rem;
+	}
+}

@@ -1,0 +1,10 @@
+.jumbotron {
+	text-align: center;
+
+	.lead {
+		padding: 0 6rem 2rem;
+		font-size: $font-size--xxlarge;
+		font-weight: $font-weight--bold;
+		line-height: 1.3;
+	}
+}

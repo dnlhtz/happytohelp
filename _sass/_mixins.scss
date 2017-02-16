@@ -1,0 +1,36 @@
+// MEDIA QUERY mixin
+// --------------------------------------------------------------------
+
+@mixin mq($break) {
+    @if $break == "xs" {
+        @media only screen and (min-width: $screen-xs) { @content; }
+    }
+    @else if $break == "sm" {
+        @media only screen and (min-width: $screen-sm) { @content; }
+    }
+    @else if $break == "md" {
+        @media only screen and (min-width: $screen-md) { @content; }
+    }
+    @else if $break == "lg" {
+        @media only screen and (min-width: $screen-lg) { @content; }
+    }
+    @else if $break == "xl" {
+        @media only screen and (min-width: $screen-xl) { @content; }
+    }
+    @else {
+        @error "Whoops! No value could be retrieved for `#{$break}`."
+    }
+}
+
+// SVG
+// --------------------------------------------------------------------
+
+
+@mixin svg($width, $height, $name) {
+    width: $width;
+    height: $height;
+    background: url('#{$path-images}/#{$name}.png');
+    background-image: url('#{$path-images}/#{$name}.svg');
+    background-position: 0 0;
+    background-size: $width $height;
+}

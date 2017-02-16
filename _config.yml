@@ -1,0 +1,39 @@
+# Site settings
+title: Urban Challenger
+mode: development
+description: urbanchallenger.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://urbanchallenger.com" # the base hostname & protocol for your site
+blogimageurl: /assets/images/blog
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:categories/:title.html
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      og-type: article
+      layout: post
+
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      og-type: website
+
+  - scope:
+      path: ""
+      type: "challenges"
+    values:
+      og-type: article
+
+  - scope:
+      path: ""
+      type: "press"
+    values:
+      og-type: article
+      layout: post

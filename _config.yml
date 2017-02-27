@@ -1,9 +1,9 @@
 # Site settings
-title: Urban Challenger
+title: Happy to Help
 mode: development
-description: urbanchallenger.com
+description: happytohelp.io
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://urbanchallenger.com" # the base hostname & protocol for your site
+url: "http://happytohelp.io" # the base hostname & protocol for your site
 blogimageurl: /assets/images/blog
 
 # Build settings

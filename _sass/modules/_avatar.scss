@@ -1,0 +1,16 @@
+.avatar {
+	display: inline-block;
+
+	img {
+		border-radius: 100%;
+		border: 8px solid white;
+		width: 100%;
+
+	}
+
+	&--profile-page {
+		width: 250px;
+		margin-top: 50px;
+		margin-bottom: -150px;
+	}
+}

@@ -37,3 +37,8 @@ defaults:
     values:
       og-type: article
       layout: post
+
+collections:
+  profiles:
+    output: true
+    permalink: /people/:path/

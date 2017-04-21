@@ -1,0 +1,74 @@
+.profile {
+
+	&__name {
+		color: $brand-primary;
+		font-family: $font-family--script;
+	}
+
+	ul {
+		text-align: left;
+	}
+
+	&__profession {
+		font-weight: $font-weight--bold;
+	}
+
+}
+
+.profile--page {
+
+	.profile__name {
+		font-size: 5rem;
+		margin-bottom: 2rem;
+	}
+
+	h3 {
+		font-size: $font-size--small;
+		color: $brand-primary;
+		margin-top: 2rem;
+	}
+
+	ul {
+		text-align: left;
+	}
+
+	.profile__profession {
+		font-size: $font-size--large;
+	}
+
+	.profile__position {
+		font-size: $font-size--small;
+		margin-bottom: 3rem;
+	}
+
+	.profile__topics {
+		font-weight: $font-weight--bold;
+		font-size: $font-size--large;
+		margin-bottom: 3rem;
+	}
+
+	.profile__learn {
+		font-size: $font-size--large;
+		margin-bottom: 3rem;
+	}
+
+	.btn {
+		margin-bottom: 2rem;
+	}
+}
+
+.profile--teaser {
+	margin-bottom: 2rem;
+	text-align: left;
+
+	.avatar {
+		width: 100%;
+	}
+
+	.profile__name {
+		font-size: $font-size--xxlarge;
+	}
+
+	.profile__topics {
+	}
+}

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+ <section class="section section--header">
+	<div class="container">
+
+	<a href="{{ site.baseurl }}/">
+		<div class="brand brand--header">
+				<span class="sr-only">Happytohelp.io</span>
+		</div>
+	</a>
+
+	<div class="jumbotron">
+		<div class="avatar avatar--profile-page"><img src="/assets/images/profiles/{{ page.avatar }}.jpg" class="rounded-circle"></div>
+	</div>
+
+	</div><!-- /.container -->
+</section>
+
+<section class="section section--profile" id="profile">
+	<div class="container">
+	<div class="row">
+
+		<div class="col-md-6 offset-md-3">
+			<div class="profile profile--page">
+				<h1 class="profile__name">{{ page.name }}</h1>
+				<div class="profile__profession">{{ page.profession }}</div>
+				<p class="profile__position">{{ page.position }}</p>
+
+				<h3>{{ page.name }} can help you with:</h3>
+				<p class="profile__topics">{{ page.topics }}</p>
+
+				<a class="btn btn-primary" href="{{ page.calendly }}" target="_blank" role="button">Book a session with Daniel<i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+
+				<h3>Here is what he's good at:</h3>
+				
+				{{ page.content }}
+
+				<h3>He wants to learn more about:</h3>
+				<p class="profile__learn">{{ page.learn }}</p>
+
+				<h3>You can help him with:</h3>
+				<p class="profile__learn">{{ page.help }}</p>
+
+				<a class="btn btn-primary" href="https://calendly.com" target="_blank" role="button">Book a session with {{ page.name }}<i class="fa fa-external-link" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+	</div>
+	</div><!-- /.container -->
+</section>

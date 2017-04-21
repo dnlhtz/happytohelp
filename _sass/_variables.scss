@@ -18,9 +18,9 @@ $gray-lightest:             lighten($gray, 50%);
 
 // Fonts
 
-$font-family--proxima: 			"proxima-nova";
-$font-family--proxima-soft:	 	"proxima-nova-soft";
-$font-family--script: 			"verveine";
+$font-family--proxima: 			"proxima-nova", sans-serif;
+$font-family--proxima-soft:	 	"proxima-nova-soft", sans-serif;
+$font-family--script: 			"verveine", sans-serif;
 
 $font-family-sans-serif: $font-family--proxima;
 $font-family-base:       $font-family--proxima;

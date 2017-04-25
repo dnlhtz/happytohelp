@@ -4,7 +4,16 @@ name: Daniel
 avatar: daniel
 calendly: https://calendly.com/dnlhtz/freehelpfriday/ 
 profession: Entrepreneur / Designer
-topics: Entrepreneurship, Startups, Design, Web Development, Personal Growth, Meditation, Traveling & Location Independence, Photography
+topics: 
+- Entrepreneurship
+- Startups
+- Design
+- Web Development
+- Personal Growth
+- Meditation
+- Traveling
+- Location Independence
+- Photography
 position: Currently an entrepreneur with Urban Challenger and teacher at x school
 need: acquisition, time management, putting myself out there
 learn: Teaching, researching, networking, communicating

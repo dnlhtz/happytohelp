@@ -43,13 +43,30 @@
 
 	.profile__topics {
 		font-weight: $font-weight--bold;
-		font-size: $font-size--large;
+		text-align: center;
 		margin-bottom: 3rem;
+
+		li {
+			background-color: $gray-lightest;
+			display: inline-block;
+			margin: .25rem .25rem;
+			padding: .25rem 1rem;
+			border-radius: 1rem;
+			cursor: pointer;
+		}
 	}
 
 	.profile__learn {
-		font-size: $font-size--large;
 		margin-bottom: 3rem;
+		text-align: center;
+
+		li {
+			background-color: $gray-lightest;
+			display: inline-block;
+			margin: .25rem .25rem;
+			padding: .25rem 1rem;
+			border-radius: 1rem;
+		}
 	}
 
 	.btn {

@@ -6,7 +6,8 @@
 	}
 
 	ul {
-		text-align: left;
+		list-style: none;
+		padding: 0;
 	}
 
 	&__profession {
@@ -87,5 +88,17 @@
 	}
 
 	.profile__topics {
+
+		line-height: 1rem;
+
+		li {
+			display: inline-block;
+			font-size: $font-size--xsmall;
+		}
+
+		li:after {
+			content: ",";
+			padding-right: .3rem;
+		}
 	}
 }

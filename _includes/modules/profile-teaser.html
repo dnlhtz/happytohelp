@@ -9,7 +9,9 @@
 					<div class="profile__name">{{ profile.name }}</div>
 				</a>
 				<div class="profile__profession">{{ profile.profession }}</div>
-				<p class="profile__topics">{{ profile.topics }}</p>
+				<ul class="profile__topics">
+				  {% for topic in profile.topics %}<li>{{ topic[0] }}</span></li>{% endfor %}
+				</ul>
 
 				<a href="{{ profile.url }}" role="button">Learn more …</a>
 			</div>

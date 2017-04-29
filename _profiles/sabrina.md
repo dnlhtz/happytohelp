@@ -2,10 +2,11 @@
 layout: profile
 name: Sabrina
 avatar: sabrina
-calendly: https://calendly.com/
+calendly: https://calendly.com/sabrina-sasaki/30min/
 profession: Marketing - working w/ hardware startups
 topics: 
-- [trip-planner, Planning trips in general]
-- [local-guide, Showing visitors my fav spots in Japan and Brazil.]
+- [Trip Planner, Planning trips in general]
+- [Japan/Brazil Local Guide, Showing visitors my fav spots in Japan and Brazil]
+- [IoT / Hardware Startups, ]
 position: Working at a hardware accelerator in Kyoto
 ---

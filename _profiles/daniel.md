@@ -18,4 +18,6 @@ position: Founder of backhub.co, urbanchallenger.com and gebruederheitz.de
 need: acquisition, time management, putting myself out there
 learn: Teaching, researching, networking, communicating
 help: event-organization, coding, pr and social media, didactics and pedagogics in school
+bio: Daniel started out as a digital nomad 7 years ago on a trans-siberian trip from Germany to Kazakhstan and is dreaming of taking on the second part to Bejing ever since. His mission is to make travel more playful with Urban Challenger.
 ---
+

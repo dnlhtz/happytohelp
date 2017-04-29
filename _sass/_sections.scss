@@ -30,6 +30,12 @@
 
 	}
 
+	&--about {
+		p {
+			font-size: $font-size--xlarge;
+		}
+	}
+
 	&--why {
 
 		li {

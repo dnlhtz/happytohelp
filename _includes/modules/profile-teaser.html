@@ -2,7 +2,7 @@
 	<div class="profile profile--teaser">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="avatar"><img src="{{ site.baseurl }}/assets/images/profiles/{{ profile.avatar }}.jpg"></div>
+				<a href="{{ profile.url }}"><div class="avatar"><img src="{{ site.baseurl }}/assets/images/profiles/{{ profile.avatar }}.jpg"></div></a>
 			</div>
 			<div class="col-md-8">
 				<a href="{{ profile.url }}">
@@ -13,7 +13,7 @@
 				  {% for topic in profile.topics %}<li>{{ topic[0] }}</span></li>{% endfor %}
 				</ul>
 
-				<a href="{{ profile.url }}" role="button">Learn more …</a>
+				<a href="{{ profile.url }}" role="button">View Profile</a>
 			</div>
 		</div>
 	</div>

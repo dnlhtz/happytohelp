@@ -8,5 +8,7 @@ topics:
 - [Business Development, "I'm good in Business Development"]
 - [Online Marketing, "I've a lot experience in Online Marketing"]
 - [Growth Hacking, My actual passions are Innovation & Growth Hacking]
-position: Founder of vetstage.de and currently building a language leraning platform jicki.de
+- [Founding a business, ]
+- [Startups, ]
+position: Founder of tierheimhelden.de & vetstage.de and currently building a language leraning platform jicki.de
 ---

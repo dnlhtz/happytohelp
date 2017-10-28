@@ -2,7 +2,7 @@
 layout: profile
 name: Jesco
 avatar: jesco
-calendly: https://calendly.com/
+calendly: mailto:jescopuluj@gmail.com
 profession: Online Marketer / Filmmaker
 position: Currently working on a feature film
 topics: 

@@ -30,7 +30,14 @@ layout: default
 				<div class="profile__profession">{{ page.profession }}</div>
 				<p class="profile__position">{{ page.position }}</p>
 
-				<h3>{{ page.name }} can help you with:</h3>
+				<p>I am offering free 30 min skype calls to help you with anything you need. <br>Just pick a slot in my calendar.</p>
+
+				<a class="btn btn-primary" href="{{ page.calendly }}" target="_blank" role="button">Book a session <i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+				<h3>Why I am doing this:</h3>
+				<p class="profile__why">{{ page.why }}</p>
+
+				<h3>I can help you with:</h3>
 				<ul class="profile__topics">
 				  {% for topic in page.topics %}<li><span data-container="body" data-toggle="popover" data-placement="top" data-content="{{ topic[1] }}">{{ topic[0] }}</span></li>{% endfor %}
 				</ul>
@@ -40,7 +47,15 @@ layout: default
 				<p class="profile__bio">{{ page.bio }}</p>
 				{% endif %}
 
-				<a class="btn btn-primary" href="{{ page.calendly }}" target="_blank" role="button">Book a session with {{ page.name }} <i class="fa fa-external-link" aria-hidden="true"></i></a>
+				<h3>Here are some examples how I have helped people before:</h3>
+				<ul class="profile__reference">
+				  {% for topic in page.reference %}<li>{{ topic[0] }}</li>{% endfor %}
+				</ul>				
+
+
+				<p>Talk to you soon!</p>
+
+				<a class="btn btn-primary" href="{{ page.calendly }}" target="_blank" role="button">Book a session <i class="fa fa-external-link" aria-hidden="true"></i></a>
 			</div>
 		</div>
 

@@ -25,19 +25,6 @@ defaults:
     values:
       og-type: website
 
-  - scope:
-      path: ""
-      type: "challenges"
-    values:
-      og-type: article
-
-  - scope:
-      path: ""
-      type: "press"
-    values:
-      og-type: article
-      layout: post
-
 collections:
   profiles:
     output: true
